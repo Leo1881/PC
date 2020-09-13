@@ -1,0 +1,75 @@
+#hero {
+  width: 100%;
+  background-image: url("../../assets/img/herosmall.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #252525e6;
+}
+
+@media (min-width: 576px) {
+  #hero {
+    background-image: url("../../assets/img/herolarge.png");
+  }
+}
+
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/logo_big_WG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 243px;
+  height: 62px;
+}
+
+#navcol-1 {
+  font-family: Montserrat, sans-serif;
+}
+
+#welcome {
+  font-family: Montserrat, sans-serif;
+  font-size: 33px;
+}
+
+#polished {
+  font-family: Montserrat, sans-serif;
+  font-size: 101px;
+}
+
+@media (max-width: 576px) {
+  #heromiddle #welcome {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #heromiddle #polished {
+    font-size: 40px;
+  }
+}
+
+#about {
+  width: 100%;
+}
+
+#abouttext {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 360px) {
+  #abouttext {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+#aboutrow {
+  margin: 0 auto;
+}
+
+#carousel-1 .carousel-inner .item .img {
+  margin: 0 auto;
+}
+
